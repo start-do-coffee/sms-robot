@@ -7,8 +7,6 @@
 
     $match = $router->match();
 
-    
-
     if( is_array($match) && is_callable( $match['target'] ) ) {
         //如果有配對到網址
         call_user_func_array( $match['target'], $match['params'] ); 
