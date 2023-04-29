@@ -1,0 +1,18 @@
+{
+    "name": "taisen/sms-system",
+    "autoload": {
+        "psr-4": {
+            "Taisen\\SmsSystem\\": "src/"
+        },
+        "classmap": [
+            "model"
+        ]
+    },
+    "authors": [
+        {
+            "name": "泰森",
+            "email": "my556655662000@gmail.com"
+        }
+    ],
+    "require": {}
+}
