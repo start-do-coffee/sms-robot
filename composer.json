@@ -5,7 +5,8 @@
             "Taisen\\SmsSystem\\": "src/"
         },
         "classmap": [
-            "model"
+            "model",
+            "controller"
         ]
     },
     "authors": [
@@ -14,5 +15,7 @@
             "email": "my556655662000@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "altorouter/altorouter": "1.1.0"
+    }
 }
