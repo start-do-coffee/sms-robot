@@ -1,9 +1,5 @@
 <?php
 
-    require 'router/routerLine.php';
-    require 'router/routerRobot.php';
-
-
     $router = new AltoRouter();
 
 
