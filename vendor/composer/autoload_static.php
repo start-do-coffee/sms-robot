@@ -26,7 +26,7 @@ class ComposerStaticInit24c0ba0bf4654b170844de0d99270003
         'ErrorCodes' => __DIR__ . '/../..' . '/model/sms/ErrorCodes.php',
         'RequestError' => __DIR__ . '/../..' . '/model/sms/RequestError.php',
         'SMSActivate' => __DIR__ . '/../..' . '/model/sms/SMSActivate.php',
-        'cotrollerLineAccount' => __DIR__ . '/../..' . '/controller/controllerIndex.php',
+        'cotrollerIndex' => __DIR__ . '/../..' . '/controller/controllerIndex.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

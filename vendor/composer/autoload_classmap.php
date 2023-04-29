@@ -11,5 +11,5 @@ return array(
     'ErrorCodes' => $baseDir . '/model/sms/ErrorCodes.php',
     'RequestError' => $baseDir . '/model/sms/RequestError.php',
     'SMSActivate' => $baseDir . '/model/sms/SMSActivate.php',
-    'cotrollerLineAccount' => $baseDir . '/controller/controllerIndex.php',
+    'cotrollerIndex' => $baseDir . '/controller/controllerIndex.php',
 );
