@@ -11,7 +11,7 @@ class cotrollerIndex {
     function index(){
         $smsApp = new SMSActivate(SMS_KEY);
         $freeSlots = $smsApp->getNumbersStatus(0,'tele2');
-        echo "WhatsAPP:".$freeSlots['wa'];
+        var_dump($freeSlots)
     }
 /************************************
     * 函式簡述： 登出
